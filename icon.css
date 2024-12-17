@@ -1,0 +1,284 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap);.trustpilot {
+    background-image: var(--trustpilot-bg-image);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+#brandedInsurelo,#insurelo,.gtlAnchor {
+    background: var(--main-logo-backgroungimage)
+}
+
+.gtlAnchor {
+    background-size: 99% 99%
+}
+
+.loanpurpose_icon {
+    background: url("../../images/00_DesktopTablet_Loan_Purpose_Icon_Sprite.svg") no-repeat;
+    background-size: 920%
+}
+
+#loanpurpose_creditcardsdebtconsolidation .loanpurpose_icon {
+    background: url("../../images/CreditCards_DebtConsolidation-desktop_tablet.svg") no-repeat;
+    background-size: 920%
+}
+
+#next_btn_image,.back,.lightbox_close,.popup_close {
+    background: url("../../images/00_DesktopTabletMobile_Misc_UI_Icon_Sprite.svg") no-repeat;
+    background-size: 600%;
+    outline: 0
+}
+
+#m_back {
+    background: var(--back-arrow-mob) no-repeat;
+    background-size: var(--backbtn-bg-size-mob);
+    outline: 0
+}
+
+#m_back:active {
+    background: var(--back-arrow-mob-hover) no-repeat
+}
+
+.checked_icon,.helptext_icon,.selectInput {
+    background: url("../../images/00_Universal_Input_Field_Icon_Sprite.svg") no-repeat;
+    background-size: 887%;
+    z-index: 9
+}
+
+.list_question li.selected {
+    color: #2a2a2b!important;
+    position: relative!important;
+    border: none!important;
+    font-weight: 400!important;
+    box-shadow: none
+}
+
+.list_question li.selected::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    border: 2px solid #f9892a;
+    box-shadow: var(--box-shadow);
+    border-radius: 2px
+}
+
+.list_question li.selected::after {
+    content: "";
+    position: absolute;
+    right: 4px;
+    top: 8px;
+    background: url(../../images/Verified_Check.svg) no-repeat;
+    background-size: 31%;
+    width: 59px;
+    height: 42px;
+    background-color: #fff;
+    background-position: 19px 14px
+}
+
+.list_question li {
+    width: 100%!important;
+    max-width: 332px!important;
+    height: 62px;
+    margin: 13px auto!important;
+    position: relative!important;
+    overflow: visible!important;
+    border: none!important;
+    box-shadow: none!important;
+    display: flex;
+    line-height: 27px!important;
+    color: #2a2a2b!important
+}
+
+.list_question li:hover {
+    position: relative!important;
+    color: #2a2a2b!important;
+    box-shadow: none!important;
+    border: none!important;
+    font-weight: 400!important
+}
+
+.list_question li:hover::before {
+    border: 2px solid #f9892a;
+    transform: scale(1.04,1.16);
+    box-shadow: var(--box-shadow)
+}
+
+.list_question li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    transition: 150ms ease-in-out;
+    border: 1px solid #c7c7ce;
+    border-radius: 2px;
+    box-shadow: var(--box-shadow)
+}
+
+.checked_icon.verified {
+    background: url("../../images/00_DesktopTabletMobile_Misc_UI_Icon_Sprite.svg") no-repeat;
+    background-size: 532%;
+    background-position: 7px -74px!important;
+    display: block!important
+}
+
+.icon {
+    background: url("../../images/00_Universal_Question_Icon_Sprite.svg") no-repeat;
+    background-size: 654%
+}
+
+.mortgageRefi_icons {
+    background: url("../../images/Universal_Question_Selection_Icon_Sprite.svg") no-repeat;
+    background-size: 654%
+}
+
+.j-switch {
+    max-width: 356px!important;
+    width: 100%
+}
+
+.j-switch .input-wrap,.j-switch input {
+    height: 128px!important;
+    width: 158px!important;
+    max-width: 158px!important
+}
+
+.j-switch .j-switch-on {
+    color: #2a2a2b!important;
+    font-weight: 400!important
+}
+
+.j-switch input {
+    border: none!important;
+    border-radius: 2px!important;
+    box-shadow: none!important;
+    appearance: none!important;
+    -moz-appearance: none!important;
+    -webkit-appearance: none!important;
+    line-height: 14!important;
+    margin-bottom: 0!important;
+    pointer-events: none
+}
+
+.j-switch .input-wrap.wrapper-selected {
+    color: #2a2a2b;
+    position: relative;
+    border: none
+}
+
+.j-switch .input-wrap.wrapper-selected::after {
+    content: "";
+    position: absolute;
+    right: 3px;
+    top: 8px;
+    background: url(../../images/Verified_Check.svg) no-repeat;
+    background-size: 71%;
+    width: 26px;
+    height: 22px;
+    background-color: #fff;
+    background-position: 4px 1px
+}
+
+.j-switch .input-wrap.wrapper-selected::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    transition: 150ms ease-in-out;
+    color: #2a2a2b!important;
+    font-weight: 400!important;
+    border: 2px solid #f9892a!important;
+    border-radius: 2px
+}
+
+.j-switch .input-wrap {
+    position: relative;
+    overflow: visible;
+    border: none;
+    border-radius: 2px;
+    box-shadow: var(--box-shadow);
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    margin: 10px!important
+}
+
+.j-switch .input-wrap::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    transition: 150ms ease-in-out;
+    box-shadow: var(--box-shadow)!important;
+    border: 1px solid #c7c7ce!important;
+    border-radius: 2px
+}
+
+.j-switch .input-wrap:hover {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    color: #2a2a2b!important;
+    font-weight: 400!important;
+    transform: var(--input-transform-prop)
+}
+
+.j-switch .input-wrap:hover::before {
+    border: 2px solid #f9892a!important;
+    transform: var(--before-transform-prop);
+    box-shadow: var(--switch-btn-box-shadow)!important
+}
+
+.j-switch .input-wrap:hover input {
+    color: #2a2a2b!important;
+    font-weight: 400!important
+}
+
+.j-switch .icon {
+    width: 71px!important;
+    height: 61px!important
+}
+
+.j-switch .LAincreaseone-yes,.j-switch .LAincreasetwo-yes {
+    background: url("../../images/MoneyStack_Large.svg") no-repeat;
+    background-size: 100%
+}
+
+.j-switch .LAincreaseone-no,.j-switch .LAincreasetwo-no {
+    background: url("../../images/MoneyStack_Small.svg") no-repeat;
+    background-size: 100%
+}
+
+#Credit-Cards-Debt-Consolidation-icon {
+    background-image: url("/personalloans/images/CreditCards_DebtConsolidation-mobile.svg")!important;
+    background-repeat: no-repeat
+}
+
+.leah_icon {
+    background: url("../../images/leah-image.png") no-repeat;
+    background-size: contain
+}
+
+#SSN_step #SSN_checked {
+    background-size: 900%;
+    background-position: -71px -103px;
+    margin-right: 10px
+}
+
+@supports (-webkit-touch-callout:none) {
+    .next_btn {
+        bottom: -10px
+    }
+}

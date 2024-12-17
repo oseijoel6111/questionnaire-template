@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.637" height="46.078" viewBox="0 0 27.637 46.078">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_10164" data-name="Rectangle 10164" width="27.637" height="46.078" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="SMS_Icon" data-name="SMS Icon" transform="translate(0 0)">
+    <g id="Group_29494" data-name="Group 29494" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_22458" data-name="Path 22458" d="M22.889,1H5.341a4.3,4.3,0,0,0-4.3,4.3V8.159H27.184V5.3a4.3,4.3,0,0,0-4.3-4.3" transform="translate(-0.297 -0.284)" fill="#e4e8ff"/>
+      <path id="Path_22459" data-name="Path 22459" d="M22.889,60.521H5.341a4.3,4.3,0,0,1-4.3-4.3V53.362H27.184v2.864a4.3,4.3,0,0,1-4.3,4.3" transform="translate(-0.297 -15.159)" fill="#e4e8ff"/>
+      <path id="Path_22460" data-name="Path 22460" d="M22.771,46.078H4.865A4.758,4.758,0,0,1,0,41.446V4.632A4.758,4.758,0,0,1,4.865,0H22.771a4.758,4.758,0,0,1,4.865,4.632V41.446a4.758,4.758,0,0,1-4.865,4.632M4.865,1.432a3.326,3.326,0,0,0-3.434,3.2V41.446a3.326,3.326,0,0,0,3.434,3.2H22.771a3.327,3.327,0,0,0,3.434-3.2V4.632a3.327,3.327,0,0,0-3.434-3.2Z" transform="translate(0 0)" fill="#19339a"/>
+      <rect id="Rectangle_10162" data-name="Rectangle 10162" width="26.205" height="1.432" transform="translate(0.716 37.487)" fill="#19339a"/>
+      <rect id="Rectangle_10163" data-name="Rectangle 10163" width="26.205" height="1.432" transform="translate(0.716 7.159)" fill="#19339a"/>
+      <path id="Path_22461" data-name="Path 22461" d="M20.721,58.794H15.08a.716.716,0,1,1,0-1.432h5.641a.716.716,0,1,1,0,1.432" transform="translate(-4.081 -16.296)" fill="#19339a"/>
+      <path id="Path_22462" data-name="Path 22462" d="M19.465,6.432H17.981a.716.716,0,0,1,0-1.432h1.484a.716.716,0,1,1,0,1.432" transform="translate(-4.905 -1.421)" fill="#19339a"/>
+    </g>
+  </g>
+</svg>
